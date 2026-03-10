@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="adauga_cafea">Adaugare Cafea</string>
+    <string name="nume_cafea">Nume cafea</string>
+    <string name="cantitate_ml">Cantitate ml</string>
+    <string name="pret">Pret</string>
+    <string name="cu_lapte">Cu lapte</string>
+    <string name="cu_zahar">Cu zahar</string>
+    <string name="cafea_speciala">Cafea speciala</string>
+    <string name="oferta">Oferta</string>
+    <string name="fara_oferta">Fara oferta</string>
+    <string name="salveaza_cafea">Salveaza Cafea</string>
+    <string name="aplicatie_cafea">Aplicatie Cafea</string>
+    <string name="adauga_cafea_buton">Adauga Cafea</string>
+
+    <string name="label_nume">Nume:</string>
+    <string name="label_cantitate">Cantitate:</string>
+    <string name="label_pret">Pret:</string>
+    <string name="label_lapte">Cu lapte:</string>
+    <string name="label_zahar">Cu zahar:</string>
+    <string name="label_tip">Tip cafea:</string>
+    <string name="label_rating">Rating:</string>
+    <string name="label_speciala">Cafea speciala:</string>
+    <string name="label_oferta">Oferta:</string>
+</resources>
