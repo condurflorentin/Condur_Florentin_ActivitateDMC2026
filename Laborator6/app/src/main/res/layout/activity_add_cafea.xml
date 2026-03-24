@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adauga Cafea"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etNume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nume cafea" />
+
+        <EditText
+            android:id="@+id/etCantitate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cantitate (ml)"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etPret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pret"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etDataPreparare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Selecteaza data prepararii"
+            android:focusable="false"
+            android:clickable="true"
+            android:inputType="none"
+            android:layout_marginTop="8dp" />
+
+        <CheckBox
+            android:id="@+id/cbLapte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cu lapte"
+            android:layout_marginTop="8dp" />
+
+        <Switch
+            android:id="@+id/swZahar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cu zahar"
+            android:layout_marginTop="8dp" />
+
+        <RadioButton
+            android:id="@+id/rbSpeciala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cafea speciala"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tip cafea"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:layout_marginTop="4dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleOferta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Oferta"
+            android:textOff="Fara oferta"
+            android:layout_marginTop="12dp" />
+
+
+        <Button
+            android:id="@+id/btnSalveaza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salveaza"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
