@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setari text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:id="@+id/etDimensiune"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dimensiune text (ex: 18)"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alege culoarea"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerCuloare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSalveazaSetari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salveaza setari"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
